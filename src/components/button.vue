@@ -1,5 +1,5 @@
 <template>
-  <div
+  <button
     class="lh-button"
     :class="[
       'lh-button-' + type,
@@ -15,7 +15,7 @@
     <span v-if="$slots.default">
       <slot></slot>
     </span>
-  </div>
+  </button>
 </template>
 
 <script>
